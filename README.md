@@ -1,8 +1,10 @@
-# React + Vite
+# MoneyMap - A MERN stack based money tracker app.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The project is made to keep a track of the transactions performed as well as the remaining balance after the transactions. The project is used to test the fundamentals of a basic MERN stack Web Application.
 
-Currently, two official plugins are available:
+## Frontend: 
+The frontend application is build using ReactJs and Javascript for rendering and tailwindcss for styling.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Backend: 
+The backend api endpoints are made using expressjs and database storage is done using MongoDB. Connection to MongoDB and creation of models were performed using mongoose. 
+
